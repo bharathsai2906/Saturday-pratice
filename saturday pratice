@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <p> i am normal</p>
+    <p style="color:red;">i am red</p>
+    <p style="color:green">i am green</p>
+    <p style="font-size: 70px;">i am big</p>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#bharath {
+  background-color: red;
+  color: beige;
+  padding: 40px;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<h2>The id Attribute</h2>
+<p>Use CSS to style an element with the id "bharath":</p>
+
+<h1 id="bharath">bharath</h1>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */
+.city {
+  background-color: blue;
+  color: seashell;
+  padding: 10px;
+} 
+</style>
+</head>
+<body>
+
+<h2>Difference Between Class and ID</h2>
+<p>A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:</p>
+
+<!-- An element with a unique id -->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Multiple elements with same class -->
+<h2 class="city">Hyderabad</h2>
+<p>Hyderabad is the state of Telangana.</p>
+
+<h2 class="city">Munnar</h2>
+<p>Munnar is the state of kerala.</p>
+
+<h2 class="city">kedarnath</h2>
+<p>kedarnath is the state of uttarakhand.</p>
+
+</body>
+</html>
+
+  
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input formenctype attribute</h1>
+
+<p>The formenctype attribute specifies how the form data should be encoded when submitted.</p>
+
+<form action="/action_page_binary.asp" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+</form>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Password field</h2>
+
+<p>The <strong>input type="password"</strong> defines a password field:</p>
+
+<form action="/action_page.php">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>The characters in a password field are masked (shown as asterisks or circles).</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Date Field</h2>
+
+<p>The <strong>input type="date"</strong> is used for input fields that should contain a date.</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+
+</body>
+</html>
